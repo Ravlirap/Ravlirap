@@ -199,22 +199,20 @@ Python         █████░░░░░ 50%
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Ravlirap&show_icons=true&theme=github_dark&hide_border=true&count_private=true&rank_icon=github&include_all_commits=true">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Ravlirap&show_icons=true&theme=default&hide_border=true&count_private=true&rank_icon=github&include_all_commits=true">
-</picture>
-&nbsp;
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Ravlirap&layout=compact&theme=github_dark&hide_border=true&langs_count=8">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ravlirap&layout=compact&theme=default&hide_border=true&langs_count=8">
-</picture>
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=Ravlirap&show_icons=true&theme=github_dark&hide_border=true&count_private=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" height="180" alt="Ravlirap GitHub Stats"/>
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ravlirap&layout=compact&theme=github_dark&hide_border=true&langs_count=8&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="180" alt="Top Languages"/>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Ravlirap&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ravlirap&theme=default&hide_border=true&date_format=j%20M%5B%20Y%5D">
-</picture>
+<img src="https://streak-stats.demolab.com/?user=Ravlirap&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D&stroke=58a6ff&ring=58a6ff&fire=ff6e6e&currStreakLabel=58a6ff" alt="GitHub Streak Stats" />
 
 </div>
 
