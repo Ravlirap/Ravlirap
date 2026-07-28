@@ -1,28 +1,25 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:0f3460,100:16213e&height=220&section=header&text=Ravli%20Rapdani&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Backend%20Developer%20%7C%20Mobile%20Enthusiast&descSize=18&descAlignY=62&descColor=58a6ff">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:e8f4fd,50:b3d9f7,100:d1ecf8&height=220&section=header&text=Ravli%20Rapdani&fontSize=52&fontColor=1a365d&animation=fadeIn&fontAlignY=40&desc=Backend%20Developer%20%7C%20Mobile%20Enthusiast&descSize=18&descAlignY=62&descColor=2b6cb0" alt="Header">
-</picture>
+<!-- ══════════════════ HEADER ══════════════════ -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0f3460,100:1a1b27&height=210&section=header&text=Ravli%20Rapdani&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Developer%20%7C%20Mobile%20Enthusiast&descSize=17&descAlignY=58&descColor=58a6ff" />
 
-<!-- Typing Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&multiline=false&random=false&width=620&height=50&lines=Backend+Developer+%7C+Go+%26+Flutter;Building+scalable+systems+%F0%9F%9A%80;Student+%40+Politeknik+Negeri+Indramayu;Open+to+Internship+%26+Full-time;Always+learning%2C+always+building+%F0%9F%94%A5" alt="Typing SVG" />
+<!-- Typing SVG -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=620&height=50&lines=Backend+Developer+%7C+Go+%26+Flutter;Building+scalable+systems+%F0%9F%9A%80;Student+%40+Politeknik+Negeri+Indramayu;Open+to+Internship+%26+Full-time+%F0%9F%94%A5" alt="Typing SVG" />
 
 <br/>
 
-<!-- Profile Stats Row -->
-<p>
-  <img src="https://komarev.com/ghpvc/?username=Ravlirap&label=Profile+Views&color=0f3460&style=flat-square&labelColor=0d1117" />
-  &nbsp;
-  <img src="https://img.shields.io/github/followers/Ravlirap?label=Followers&style=flat-square&color=0f3460&labelColor=0d1117&logo=github&logoColor=white" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Status-Open%20to%20Work-2ea44f?style=flat-square&logo=briefcase&logoColor=white" />
-</p>
+<!-- Badges -->
+<img src="https://komarev.com/ghpvc/?username=Ravlirap&label=Profile+Views&color=0f3460&style=flat-square&labelColor=161b22" />
+&nbsp;
+<img src="https://img.shields.io/github/followers/Ravlirap?label=Followers&style=flat-square&color=0f3460&labelColor=161b22&logo=github&logoColor=58a6ff" />
+&nbsp;
+<img src="https://img.shields.io/badge/Status-Open%20to%20Work-238636?style=flat-square&labelColor=161b22" />
 
 </div>
 
----
+<br/>
+
+<!-- ══════════════════ WHOAMI ══════════════════ -->
 
 ## `$ whoami`
 
@@ -32,38 +29,41 @@ package main
 import "fmt"
 
 type Developer struct {
-    Name        string
-    Role        string
-    University  string
-    Location    string
-    Languages   []string
+    Name         string
+    Role         string
+    University   string
+    Location     string
     CurrentFocus string
-    OpenTo      []string
+    OpenTo       []string
 }
 
 func main() {
     me := Developer{
-        Name:       "Ravli Rapdani",
-        Role:       "Backend Developer",
-        University: "Politeknik Negeri Indramayu",
-        Location:   "Indramayu, Indonesia 🇮🇩",
-        Languages:  []string{"Go", "Dart", "JavaScript", "Python", "PHP"},
-        CurrentFocus: "BKU Student Hub — Enterprise Campus Management System",
-        OpenTo:     []string{"Internship", "Full-time", "Open Source Collaboration"},
+        Name:         "Ravli Rapdani",
+        Role:         "Backend Developer",
+        University:   "Politeknik Negeri Indramayu",
+        Location:     "Indramayu, Indonesia 🇮🇩",
+        CurrentFocus: "BKU Student Hub — Enterprise Campus System",
+        OpenTo:       []string{"Internship", "Full-time", "Collaboration"},
     }
-    fmt.Printf("Hello, World! I'm %s 👋\n", me.Name)
+    fmt.Printf("Hey there! I'm %s 👋\n", me.Name)
+    fmt.Printf("I build %s and love clean architecture.\n", me.Role)
 }
 ```
 
 ---
 
+<!-- ══════════════════ CURRENTLY BUILDING ══════════════════ -->
+
 ## 🏗️ Currently Building
 
-<table>
+<div align="center">
+
+<table width="100%">
   <tr>
-    <td width="50%">
+    <td width="60%" valign="top">
       <h3>🎓 BKU Student Hub</h3>
-      <p>Enterprise-grade campus management system serving 11 distinct user roles — from students and lecturers to health personnel and student organizations.</p>
+      <p>Enterprise-grade campus management system serving <b>11 distinct user roles</b> — students, lecturers, health personnel, psychology staff, and student organizations.</p>
       <p>
         <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
         <img src="https://img.shields.io/badge/Fiber-00ADD8?style=flat-square&logo=go&logoColor=white"/>
@@ -74,126 +74,89 @@ func main() {
       </p>
       <ul>
         <li>⚙️ Multi-role RBAC architecture</li>
-        <li>🔗 Cross-module integration</li>
+        <li>🔗 Cross-module API integration</li>
         <li>🧪 QA/UAT across all user roles</li>
       </ul>
     </td>
-    <td width="50%" valign="top">
-      <h3>📌 Focus Areas</h3>
-      <p>
-        <img src="https://img.shields.io/badge/Backend%20Architecture-00ADD8?style=flat-square"/>
-        <img src="https://img.shields.io/badge/REST%20API%20Design-4169E1?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Database%20Optimization-336791?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Mobile%20Dev-02569B?style=flat-square"/>
-      </p>
+    <td width="40%" valign="top">
+      <h3>📊 Skill Radar</h3>
       <br/>
-      <details>
-        <summary><b>📋 Daily Tech Radar</b></summary>
-        <br/>
-        <pre>
-Go (Fiber)     ██████████ 90%
-PostgreSQL     ████████░░ 80%
-Flutter/Dart   ████████░░ 80%
-React + Vite   ██████░░░░ 60%
-Python         █████░░░░░ 50%
-        </pre>
-      </details>
+      <pre>
+Go / Fiber    ██████████  90%
+PostgreSQL    ████████░░  80%
+Flutter/Dart  ████████░░  80%
+React + Vite  ██████░░░░  60%
+Python        █████░░░░░  50%
+      </pre>
     </td>
   </tr>
 </table>
 
+</div>
+
 ---
+
+<!-- ══════════════════ TECH STACK ══════════════════ -->
 
 ## 🔧 Tech Stack
 
 <div align="center">
 
-### ⚡ Primary Languages
+**Languages**
+
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
-### 🏗️ Backend & Database
+**Backend & Database**
+
 ![Fiber](https://img.shields.io/badge/Fiber-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST%20API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
-### 🎨 Frontend & Mobile
+**Frontend & Mobile**
+
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Blade](https://img.shields.io/badge/Laravel%20Blade-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 
-### 🛠️ Tools & DevOps
+**Tools & DevOps**
+
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 </div>
 
 ---
+
+<!-- ══════════════════ PROJECTS ══════════════════ -->
 
 ## 🚀 Featured Projects
 
 <div align="center">
-<table>
-  <thead>
-    <tr>
-      <th>🗂️ Project</th>
-      <th>📝 Description</th>
-      <th>⚙️ Stack</th>
-      <th>🔗 Link</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><b>BKU Student Hub</b></td>
-      <td>Enterprise campus management system (11 roles)</td>
-      <td>Go · Fiber · PostgreSQL · React</td>
-      <td>🔒 Private</td>
-    </tr>
-    <tr>
-      <td><b>go-health Mobile</b></td>
-      <td>Healthcare mobile application</td>
-      <td>Flutter · Dart</td>
-      <td><a href="https://github.com/Ravlirap/proyek3-app">→ View</a></td>
-    </tr>
-    <tr>
-      <td><b>go-health Web</b></td>
-      <td>Web platform for health services</td>
-      <td>PHP · Laravel Blade</td>
-      <td><a href="https://github.com/Ravlirap/proyek3-web">→ View</a></td>
-    </tr>
-    <tr>
-      <td><b>Tripmate Mobile</b></td>
-      <td>Smart travel companion app</td>
-      <td>Flutter · Dart</td>
-      <td><a href="https://github.com/Ravlirap/tripmate-mobile">→ View</a></td>
-    </tr>
-    <tr>
-      <td><b>Dataset Al-Quran</b></td>
-      <td>Audio dataset of Quranic verses for ML</td>
-      <td>Python</td>
-      <td><a href="https://github.com/Ravlirap/dataset-quran">→ View</a></td>
-    </tr>
-    <tr>
-      <td><b>Porto Backend</b></td>
-      <td>Portfolio REST API server</td>
-      <td>Node.js · JavaScript</td>
-      <td><a href="https://github.com/Ravlirap/porto-be">→ View</a></td>
-    </tr>
-  </tbody>
-</table>
+
+| Project | Description | Stack | Link |
+|---|---|---|:---:|
+| **BKU Student Hub** | Enterprise campus system · 11 user roles | Go · Fiber · PostgreSQL · React | 🔒 |
+| **go-health Mobile** | Healthcare mobile application | Flutter · Dart | [→](https://github.com/Ravlirap/proyek3-app) |
+| **go-health Web** | Web platform for health services | PHP · Laravel Blade | [→](https://github.com/Ravlirap/proyek3-web) |
+| **Tripmate Mobile** | Smart travel companion app | Flutter · Dart | [→](https://github.com/Ravlirap/tripmate-mobile) |
+| **Dataset Al-Quran** | Quranic verse audio dataset for ML | Python | [→](https://github.com/Ravlirap/dataset-quran) |
+| **Porto Backend** | Portfolio REST API server | Node.js · JavaScript | [→](https://github.com/Ravlirap/porto-be) |
+
 </div>
 
 ---
+
+<!-- ══════════════════ GITHUB STATS ══════════════════ -->
 
 ## 📊 GitHub Analytics
 
@@ -201,35 +164,44 @@ Python         █████░░░░░ 50%
 
 <table>
   <tr>
-    <td>
-      <img src="https://github-stats-extended.vercel.app/api?username=Ravlirap&show_icons=true&theme=github_dark&hide_border=true&count_private=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" height="180" alt="Ravlirap GitHub Stats"/>
+    <td align="center">
+      <img src="https://github-stats-extended.vercel.app/api?username=Ravlirap&show_icons=true&theme=github_dark&hide_border=true&count_private=true&title_color=58a6ff&icon_color=3fb950&text_color=c9d1d9&bg_color=0d1117" height="175"/>
     </td>
-    <td>
-      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Ravlirap&layout=compact&theme=github_dark&hide_border=true&langs_count=8&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" height="180" alt="Top Languages"/>
+    <td align="center">
+      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Ravlirap&layout=compact&theme=github_dark&hide_border=true&langs_count=8&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" height="175"/>
     </td>
   </tr>
 </table>
 
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=Ravlirap&theme=dark&hide_border=true&ring=58a6ff&fire=ff6e6e&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=c9d1d9&stroke=444c56&background=0d1117" alt="GitHub Streak Stats" />
-
 </div>
 
 ---
 
-## 📈 Contribution Activity
+<!-- ══════════════════ STREAK STATS ══════════════════ -->
+
+## 🔥 Contribution Streak
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Ravlirap&theme=github-dark&hide_border=true&area=true&area_color=0f3460">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ravlirap&theme=minimal&hide_border=true&area=true">
-</picture>
+<img src="https://streak-stats.demolab.com?user=Ravlirap&theme=dark&hide_border=true&background=0d1117&ring=58a6ff&fire=f78166&currStreakNum=ffffff&sideNums=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e&stroke=21262d" width="70%" alt="GitHub Streak" />
 
 </div>
 
 ---
+
+<!-- ══════════════════ ACTIVITY GRAPH ══════════════════ -->
+
+## 📈 Activity Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ravlirap&theme=github-dark&hide_border=true&area=true&color=58a6ff&line=58a6ff&point=3fb950&area_color=0f3460" width="95%"/>
+
+</div>
+
+---
+
+<!-- ══════════════════ SNAKE ══════════════════ -->
 
 ## 🐍 Contribution Snake
 
@@ -237,22 +209,26 @@ Python         █████░░░░░ 50%
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ravlirap/Ravlirap/output/github-contribution-grid-snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/Ravlirap/Ravlirap/output/github-contribution-grid-snake.svg" alt="Snake animation">
+  <img src="https://raw.githubusercontent.com/Ravlirap/Ravlirap/output/github-contribution-grid-snake.svg" alt="Snake animation" width="90%">
 </picture>
 
 </div>
 
 ---
 
-## 📋 Metrics Overview
+<!-- ══════════════════ METRICS ══════════════════ -->
+
+## 📋 Metrics
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Ravlirap/Ravlirap/main/metrics.svg" alt="GitHub Metrics" />
+<img src="https://raw.githubusercontent.com/Ravlirap/Ravlirap/main/metrics.svg" alt="GitHub Metrics" width="90%"/>
 
 </div>
 
 ---
+
+<!-- ══════════════════ RECENT ACTIVITY ══════════════════ -->
 
 ## 🕓 Recent Activity
 
@@ -261,17 +237,21 @@ Python         █████░░░░░ 50%
 
 ---
 
+<!-- ══════════════════ DEV PHILOSOPHY ══════════════════ -->
+
 ## 💡 Dev Philosophy
 
 <div align="center">
 
-> *"First, solve the problem. Then, write the code."* — John Johnson
+> *"First, solve the problem. Then, write the code."*
 
-> *"Code is like humor. When you have to explain it, it's bad."* — Cory House
+> *"Make it work, make it right, make it fast."*
 
 </div>
 
 ---
+
+<!-- ══════════════════ CONNECT ══════════════════ -->
 
 ## 🌐 Let's Connect
 
@@ -294,13 +274,10 @@ Python         █████░░░░░ 50%
 </a>
 
 <br/><br/>
-
-<i>⭐ Feel free to explore my repositories and drop a star if something interests you!</i>
+<i>⭐ Drop a star if you find something useful!</i>
 
 </div>
 
-<!-- Footer Banner -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,100:0d1117&height=120&section=footer&reversal=false&animation=fadeIn">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2b6cb0,100:e8f4fd&height=120&section=footer&reversal=false&animation=fadeIn">
-</picture>
+<!-- ══════════════════ FOOTER ══════════════════ -->
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,60:0f3460,100:0d1117&height=110&section=footer&animation=fadeIn" />
