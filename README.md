@@ -183,7 +183,7 @@ Python        █████░░░░░  50%
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=Ravlirap&theme=dark&hide_border=true&background=0d1117&ring=58a6ff&fire=f78166&currStreakNum=ffffff&sideNums=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e&stroke=21262d" width="70%" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com?user=Ravlirap&theme=github-dark-blue&hide_border=true" width="70%" alt="GitHub Streak" />
 
 </div>
 
