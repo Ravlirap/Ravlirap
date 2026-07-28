@@ -141,9 +141,6 @@ Sistem manajemen kampus yang mencakup 11 role pengguna berbeda (admin, dosen, ma
 </picture>
 
 </div>
-
-> ⚠️ Snake ini butuh setup GitHub Actions sekali di repo `Ravlirap/Ravlirap` — file workflow-nya udah aku siapin (`snake.yml`) di chat sebelumnya, tinggal taruh di `.github/workflows/`.
-
 ---
 
 ### 📌 Metrics Overview
