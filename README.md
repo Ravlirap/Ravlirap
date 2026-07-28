@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ══════════════════ HEADER ══════════════════ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0f3460,100:1a1b27&height=210&section=header&text=Ravli%20Devloper&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Developer%20%7C%20Mobile%20Enthusiast&descSize=17&descAlignY=58&descColor=58a6ff" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0f3460,100:1a1b27&height=210&section=header&text=Ravli%20Engineer&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Developer%20%7C%20Mobile%20Enthusiast&descSize=17&descAlignY=58&descColor=58a6ff" />
 
 <!-- Typing SVG -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=620&height=50&lines=Backend+Developer+%7C+Go+%26+Flutter;Building+scalable+systems+%F0%9F%9A%80;Student+%40+Politeknik+Negeri+Indramayu;Open+to+Internship+%26+Full-time+%F0%9F%94%A5" alt="Typing SVG" />
