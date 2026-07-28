@@ -61,25 +61,13 @@ Sistem manajemen kampus yang mencakup 11 role pengguna berbeda (admin, dosen, ma
 
 ### 🚀 Proyek Unggulan
 
-<div align="center">
-
-<a href="https://github.com/Ravlirap/proyek3-app">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ravlirap&repo=proyek3-app&theme=default&hide_border=true" />
-</a>
-<a href="https://github.com/Ravlirap/proyek3-web">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ravlirap&repo=proyek3-web&theme=default&hide_border=true" />
-</a>
-<a href="https://github.com/Ravlirap/dataset-quran">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ravlirap&repo=dataset-quran&theme=default&hide_border=true" />
-</a>
-<a href="https://github.com/Ravlirap/porto-be">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ravlirap&repo=porto-be&theme=default&hide_border=true" />
-</a>
-<a href="https://github.com/Ravlirap/tripmate-mobile">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ravlirap&repo=tripmate-mobile&theme=default&hide_border=true" />
-</a>
-
-</div>
+| Proyek | Deskripsi | Tech |
+|---|---|---|
+| [proyek3-app](https://github.com/Ravlirap/proyek3-app) | Aplikasi mobile go-health | Dart / Flutter |
+| [proyek3-web](https://github.com/Ravlirap/proyek3-web) | Web go-health | Blade |
+| [dataset-quran](https://github.com/Ravlirap/dataset-quran) | Dataset audio ayat Al-Quran | Python |
+| [porto-be](https://github.com/Ravlirap/porto-be) | Backend portofolio | JavaScript |
+| [tripmate-mobile](https://github.com/Ravlirap/tripmate-mobile) | Aplikasi mobile perjalanan | Dart / Flutter |
 
 ---
 
@@ -118,16 +106,12 @@ Sistem manajemen kampus yang mencakup 11 role pengguna berbeda (admin, dosen, ma
 
 ---
 
-### 🏆 GitHub Trophies
+### 🏆 Highlights
 
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy-liard-delta.vercel.app/?username=Ravlirap&theme=darkhub&no-frame=true&column=7&margin-w=8&margin-h=8">
-  <img src="https://github-profile-trophy-liard-delta.vercel.app/?username=Ravlirap&theme=flat&no-frame=true&column=7&margin-w=8&margin-h=8">
-</picture>
-
-</div>
+- 💼 18 repositories aktif di GitHub
+- 🎓 Mahasiswa Teknik Informatika, Politeknik Negeri Indramayu
+- 🛠️ Terlibat dalam pengembangan sistem kampus skala besar (11 role pengguna)
+- 🌐 Menguasai backend (Go) sampai mobile (Flutter)
 
 ---
 
@@ -141,7 +125,6 @@ Sistem manajemen kampus yang mencakup 11 role pengguna berbeda (admin, dosen, ma
 </picture>
 
 </div>
-
 
 ---
 
