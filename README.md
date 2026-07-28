@@ -7,9 +7,7 @@
 </picture>
 
 <!-- Typing Animation -->
-<a href="https://github.com/Ravlirap">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&random=false&width=600&lines=⚡+Building+scalable+backend+systems;🏗️+Go+%2B+Fiber+%2B+PostgreSQL+enthusiast;📱+Flutter+%26+Dart+for+mobile+apps;🎓+CS+Student+%40+Politeknik+Negeri+Indramayu;🚀+Always+learning%2C+always+building" alt="Typing SVG" />
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&multiline=false&random=false&width=620&height=50&lines=Backend+Developer+%7C+Go+%26+Flutter;Building+scalable+systems+%F0%9F%9A%80;Student+%40+Politeknik+Negeri+Indramayu;Open+to+Internship+%26+Full-time;Always+learning%2C+always+building+%F0%9F%94%A5" alt="Typing SVG" />
 
 <br/>
 
