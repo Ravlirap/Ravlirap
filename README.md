@@ -123,8 +123,8 @@ Sistem manajemen kampus yang mencakup 11 role pengguna berbeda (admin, dosen, ma
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=Ravlirap&theme=darkhub&no-frame=true&column=7&margin-w=8&margin-h=8">
-  <img src="https://github-profile-trophy.vercel.app/?username=Ravlirap&theme=flat&no-frame=true&column=7&margin-w=8&margin-h=8">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy-liard-delta.vercel.app/?username=Ravlirap&theme=darkhub&no-frame=true&column=7&margin-w=8&margin-h=8">
+  <img src="https://github-profile-trophy-liard-delta.vercel.app/?username=Ravlirap&theme=flat&no-frame=true&column=7&margin-w=8&margin-h=8">
 </picture>
 
 </div>
@@ -141,6 +141,7 @@ Sistem manajemen kampus yang mencakup 11 role pengguna berbeda (admin, dosen, ma
 </picture>
 
 </div>
+
 
 ---
 
