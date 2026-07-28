@@ -202,17 +202,17 @@ Python         █████░░░░░ 50%
 <table>
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=Ravlirap&show_icons=true&theme=github_dark&hide_border=true&count_private=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" height="180" alt="Ravlirap GitHub Stats"/>
+      <img src="https://github-stats-extended.vercel.app/api?username=Ravlirap&show_icons=true&theme=github_dark&hide_border=true&count_private=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" height="180" alt="Ravlirap GitHub Stats"/>
     </td>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ravlirap&layout=compact&theme=github_dark&hide_border=true&langs_count=8&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="180" alt="Top Languages"/>
+      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Ravlirap&layout=compact&theme=github_dark&hide_border=true&langs_count=8&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" height="180" alt="Top Languages"/>
     </td>
   </tr>
 </table>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com/?user=Ravlirap&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D&stroke=58a6ff&ring=58a6ff&fire=ff6e6e&currStreakLabel=58a6ff" alt="GitHub Streak Stats" />
+<img src="https://streak-stats.demolab.com?user=Ravlirap&theme=dark&hide_border=true&ring=58a6ff&fire=ff6e6e&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=c9d1d9&stroke=444c56&background=0d1117" alt="GitHub Streak Stats" />
 
 </div>
 
