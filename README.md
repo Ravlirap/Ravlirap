@@ -39,7 +39,7 @@ type Developer struct {
 
 func main() {
     me := Developer{
-        Name:         "Ravli Rapdani",
+        Name:         "Ravli",
         Role:         "Backend Developer",
         University:   "Politeknik Negeri Indramayu",
         Location:     "Indramayu, Indonesia 🇮🇩",
