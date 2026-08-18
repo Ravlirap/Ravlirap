@@ -1,0 +1,115 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0f1f35"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50%       { opacity: 0; }
+      }
+      @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+      }
+      .l1 { animation: fadein .35s .20s ease both; }
+      .l2 { animation: fadein .35s .65s ease both; }
+      .l3 { animation: fadein .35s 1.05s ease both; }
+      .l4 { animation: fadein .35s 1.45s ease both; }
+      .l5 { animation: fadein .35s 1.85s ease both; }
+      .l6 { animation: fadein .35s 2.25s ease both; }
+      .cur { animation: blink 1s step-end 2.6s infinite; opacity: 0; }
+    </style>
+  </defs>
+
+  <!-- Window background -->
+  <rect width="900" height="220" rx="11" fill="url(#bg)"/>
+
+  <!-- Subtle top glow strip -->
+  <rect width="900" height="220" rx="11" fill="url(#glow)"/>
+
+  <!-- Border -->
+  <rect width="900" height="220" rx="11" fill="none" stroke="#21262d" stroke-width="1.5"/>
+
+  <!-- Title bar -->
+  <rect width="900" height="40" rx="11" fill="#161b22"/>
+  <rect y="30" width="900" height="10" fill="#161b22"/>
+
+  <!-- Traffic lights -->
+  <circle cx="22" cy="20" r="6.5" fill="#ff5f57"/>
+  <circle cx="42" cy="20" r="6.5" fill="#febc2e"/>
+  <circle cx="62" cy="20" r="6.5" fill="#28c840"/>
+
+  <!-- Title bar label -->
+  <text x="450" y="25" text-anchor="middle"
+        font-family="'Courier New',Courier,monospace"
+        font-size="12" fill="#6e7681">ravlirap — bash — 140x32</text>
+
+  <!-- Prompt 1 -->
+  <g class="l1">
+    <text y="68" font-family="'Courier New',Courier,monospace" font-size="14">
+      <tspan x="24" fill="#3fb950">ravli@dev</tspan>
+      <tspan fill="#6e7681">:</tspan>
+      <tspan fill="#58a6ff">~/portfolio</tspan>
+      <tspan fill="#e6edf3"> $ </tspan>
+      <tspan fill="#e6edf3">cat profile.json</tspan>
+    </text>
+  </g>
+
+  <!-- Output lines -->
+  <g class="l2">
+    <text y="90" font-family="'Courier New',Courier,monospace" font-size="13.5">
+      <tspan x="24" fill="#6e7681">  "name"     : </tspan>
+      <tspan fill="#58a6ff">"Ravli Rapdani"</tspan>
+    </text>
+  </g>
+
+  <g class="l3">
+    <text y="108" font-family="'Courier New',Courier,monospace" font-size="13.5">
+      <tspan x="24" fill="#6e7681">  "role"     : </tspan>
+      <tspan fill="#3fb950">"Backend Developer"</tspan>
+      <tspan fill="#6e7681"> + </tspan>
+      <tspan fill="#3fb950">"Mobile Enthusiast"</tspan>
+    </text>
+  </g>
+
+  <g class="l4">
+    <text y="126" font-family="'Courier New',Courier,monospace" font-size="13.5">
+      <tspan x="24" fill="#6e7681">  "stack"    : </tspan>
+      <tspan fill="#f78166">[ Go</tspan>
+      <tspan fill="#6e7681">, </tspan>
+      <tspan fill="#d2a8ff">Flutter</tspan>
+      <tspan fill="#6e7681">, </tspan>
+      <tspan fill="#79c0ff">PostgreSQL</tspan>
+      <tspan fill="#6e7681">, </tspan>
+      <tspan fill="#56d364">React</tspan>
+      <tspan fill="#f78166"> ]</tspan>
+    </text>
+  </g>
+
+  <g class="l5">
+    <text y="144" font-family="'Courier New',Courier,monospace" font-size="13.5">
+      <tspan x="24" fill="#6e7681">  "location" : </tspan>
+      <tspan fill="#e6edf3">"Indramayu, Indonesia"</tspan>
+      <tspan fill="#6e7681">,  "open_to" : </tspan>
+      <tspan fill="#e6edf3">"Work &amp; Collab"</tspan>
+    </text>
+  </g>
+
+  <!-- Prompt 2 with blinking cursor -->
+  <g class="l6">
+    <text y="180" font-family="'Courier New',Courier,monospace" font-size="14">
+      <tspan x="24" fill="#3fb950">ravli@dev</tspan>
+      <tspan fill="#6e7681">:</tspan>
+      <tspan fill="#58a6ff">~/portfolio</tspan>
+      <tspan fill="#e6edf3"> $ </tspan>
+    </text>
+    <rect class="cur" x="165" y="167" width="8.5" height="16" rx="1" fill="#58a6ff"/>
+  </g>
+</svg>
