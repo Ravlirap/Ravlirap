@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HEADER -->
-<img src="header.svg" width="100%" alt="Ravli Rapdani — Terminal Header"/>
+<img src="header.svg" width="100%" alt="Ravli — Terminal Header"/>
 
 <br/>
 
@@ -21,34 +21,16 @@
 
 ---
 
-## ⚡ System Telemetry (`GET /api/v1/engineer`)
+## `$ whoami`
 
-<div align="center">
+> **Backend Developer & Mobile Enthusiast** based in Indramayu, Indonesia 🇮🇩  
+> Engineering clean RESTful APIs, robust database architectures, and cross-platform mobile apps.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>👤 Identity & Background</h4>
-      <ul>
-        <li><b>Name:</b> Ravli Rapdani</li>
-        <li><b>Role:</b> Backend Engineer & Mobile Developer</li>
-        <li><b>Education:</b> Politeknik Negeri Indramayu</li>
-        <li><b>Location:</b> Indramayu, Indonesia 🇮🇩</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🚀 Current Status & Focus</h4>
-      <ul>
-        <li><b>Active Core:</b> BKU Student Hub (11 User Roles)</li>
-        <li><b>Stack:</b> Go (Fiber) • PostgreSQL • React • Flutter</li>
-        <li><b>Status:</b> <code>200 OK — Operational</code></li>
-        <li><b>Open To:</b> Internship • Full-Time • Open Source</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-</div>
+- 🎓 **Education:** Informatics Engineering Student at **Politeknik Negeri Indramayu**
+- ⚙️ **Backend Specialty:** Crafting high-concurrency services with **Go (Fiber)** & **PostgreSQL**
+- 📱 **Mobile Specialty:** Building responsive cross-platform mobile applications with **Flutter & Dart**
+- 🏗️ **Current Major Work:** Enterprise campus system (**BKU Student Hub**) supporting 11 distinct user roles
+- 💼 **Availability:** Open for **Internships**, **Full-time roles**, and **Open-source collaborations**
 
 ---
 
