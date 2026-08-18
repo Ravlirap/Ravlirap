@@ -21,35 +21,34 @@
 
 ---
 
-## `$ whoami`
+## ⚡ System Telemetry (`GET /api/v1/engineer`)
 
-```go
-package main
+<div align="center">
 
-import "fmt"
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>👤 Identity & Background</h4>
+      <ul>
+        <li><b>Name:</b> Ravli Rapdani</li>
+        <li><b>Role:</b> Backend Engineer & Mobile Developer</li>
+        <li><b>Education:</b> Politeknik Negeri Indramayu</li>
+        <li><b>Location:</b> Indramayu, Indonesia 🇮🇩</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🚀 Current Status & Focus</h4>
+      <ul>
+        <li><b>Active Core:</b> BKU Student Hub (11 User Roles)</li>
+        <li><b>Stack:</b> Go (Fiber) • PostgreSQL • React • Flutter</li>
+        <li><b>Status:</b> <code>200 OK — Operational</code></li>
+        <li><b>Open To:</b> Internship • Full-Time • Open Source</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-type Developer struct {
-	Name         string
-	Role         string
-	University   string
-	Location     string
-	CurrentFocus string
-	OpenTo       []string
-}
-
-func main() {
-	me := Developer{
-		Name:         "Ravli Rapdani",
-		Role:         "Backend Developer",
-		University:   "Politeknik Negeri Indramayu",
-		Location:     "Indramayu, Indonesia 🇮🇩",
-		CurrentFocus: "BKU Student Hub — Enterprise Campus System (11 roles)",
-		OpenTo:       []string{"Internship", "Full-time", "Open Source"},
-	}
-	fmt.Printf("Hey! I'm %s 👋\n", me.Name)
-	fmt.Println("I build clean, scalable systems and love good architecture.")
-}
-```
+</div>
 
 ---
 
